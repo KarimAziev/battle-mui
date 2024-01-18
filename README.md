@@ -67,3 +67,22 @@ npm install && npm start
   as a production server, as it's not designed for it.
 - `npm lint` Run ESLint. Can be run as part of continuous integration
   pipeline.
+
+## Features
+
+- Modern, clean, and user-friendly interface developed with MUI.
+- Interactive "Start Battle" button to trigger the battle process.
+- A Battle animation display using Lottie's pre-made animations.
+- Randomized battle outcome display after the animation.
+
+## Dependencies
+
+- React (`react`, `react-dom`)
+- MUI (`@mui/material`, `@mui/system`)
+- Lottie (`lottie-react`, `lottie-web`)
+- Emotion (`@emotion/react`, `@emotion/styled`)
+- Vite, TypeScript, ESLint, and other development tools.
+
+## Notes
+
+- This application was bootstrapped with Vite and configured for React with TypeScript support.
