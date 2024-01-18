@@ -7,7 +7,7 @@ import {
   initialState,
 } from '@/features/battle/battleSlice';
 
-const Battle: React.FC = () => {
+const Battle = () => {
   const [state, dispatch] = useReducer(battleReducer, initialState);
 
   useEffect(() => {
